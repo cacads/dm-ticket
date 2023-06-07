@@ -3,7 +3,7 @@ version: '3'
 
 services:
   token-server:
-    image: classmatelin/alitoken-server:v0.1.1
+    image: ripperdev/alitoken-server:v0.1.1
     restart: always
     container_name: token-server
     environment:
